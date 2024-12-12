@@ -76,7 +76,7 @@ nav.top-nav ul li a, footer nav ul li a{
     .menu-btn .close { display: none; }
     nav.top-nav ul { 
         transition: all 0.5s ease;
-        top: -100%; 
+        top: -300px; 
         display: block;
         background-color: #222;
         position: absolute;
@@ -91,6 +91,7 @@ nav.top-nav ul li a, footer nav ul li a{
     nav.top-nav ul.open {
         top: 80%;
     }
+    nav.top-nav ul li { margin: 10px 0px; }
 }
 /* End of Header */
 /* Hero Section */
